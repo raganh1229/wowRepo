@@ -1,0 +1,520 @@
+
+/*Fonts*/
+
+@font-face {
+    font-family: "BlizzardBold";
+    src: url(fonts/blizzard-bold.ttf);
+}
+
+@font-face {
+    font-family: "BlizzardLight";
+    src: url(fonts/blizzard-light.ttf);
+}
+
+@font-face {
+    font-family: "LatterSlant";
+    src: url(fonts/Latter\ Slant\ -\ Regular\ TTF.ttf);
+}
+
+/*End of Fonts*/
+
+/*Type Sets*/
+
+h1 {
+    font-family: "BlizzardBold";
+}
+
+p {
+    font-family: "BlizzardLight";
+    font-size: 1.5rem;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+/*End of Type Sets*/
+
+
+/*Header*/
+
+header {
+    background: linear-gradient(105deg, rgba(21, 31, 32, 1) 0%, rgba(21, 31, 32, 1) 45%, transparent 45%), linear-gradient(105deg, #226265 0%, #226265 47%, transparent 0%), url(images/Illidan.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+#illidari {
+    width: 32%;
+    position: absolute;
+}
+
+.convoBig {
+    font-size: 5vw;
+}
+
+/*End of Header*/
+
+/*History*/
+
+#war2 {
+    height: 11vw;
+}
+
+#divide1 {
+    border: solid white;
+    margin-left: 28px;
+    width: 43vw;
+    height: 10px;
+    background-color: white;
+}
+
+.title {
+    font-size: 5vw;
+}
+
+.frame {
+    border: 0px solid white;
+    height: 90vh;
+    width: 43vw;
+    border-radius: 10px;
+    background-image: url(images/Night_Elf.jpg);
+    background-repeat: no-repeat;
+    box-shadow: -3px -7px 62px -19px rgba(0,0,0,0.75);
+    background-size: cover;
+}
+
+.divide2 {
+    border: solid white;
+    width: 11.6vw;
+    height: 10px;
+    background-color: white;
+}
+
+#bottomRow {
+    margin-bottom: 4vh;
+}
+
+.buttonNormal {
+    border: 5px solid white;
+    height: 30px;
+    width: 30px;
+    transform: rotate(45deg);
+    background-color: white;
+    margin: auto;
+    margin-left: 0.4vw;
+}
+
+.buttonSelect {
+    border: 5px solid #363636;
+    height: 40px;
+    width: 40px;
+    transform: rotate(45deg);
+    background-color: #363636;
+    margin: auto;
+    margin-left: 0.4vw;
+}
+
+/*End of History*/
+
+/*Dynamic Art*/
+
+#archer {
+    position: relative;
+    width: 70vh;
+    margin-top: 17vw; 
+    right: 3vw;
+}
+
+#troll {
+    position: absolute;
+    width: 60vh;
+    left: 19vw;
+    top: 4vw;
+}
+
+#divide3 {
+    border: solid white;
+    width: 36vw;
+    height: 10px;
+    background-color: white;
+}
+
+#secondRow {
+    justify-content: right;
+}
+
+#thirdRow {
+    justify-content: right; 
+}
+
+#frame1 {
+    border: 0px solid white;
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    background-image: url(images/Jaina.png);
+    background-size: contain;
+    box-shadow: -3px -7px 62px -19px rgba(0,0,0,0.75);
+}
+
+#frame2 {
+    border: 0px solid white;
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    background-image: url(images/Dalaran.png);
+    background-size: contain;
+    box-shadow: -3px -7px 62px -19px rgba(0,0,0,0.75);
+    
+}
+
+#frame3 {
+    border: 0px solid white;
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    background-image: url(images/Frostmourne.png);
+    background-size: contain;
+    box-shadow: -3px -7px 62px -19px rgba(0,0,0,0.75);
+    
+}
+
+.buttonNormal2 {
+    border: 5px solid white;
+    height: 30px;
+    width: 30px;
+    transform: rotate(45deg);
+    background-color: white;
+    margin: auto;
+}
+
+.buttonSelect2 {
+    border: 5px solid #ef2353;
+    height: 30px;
+    width: 30px;
+    transform: rotate(45deg);
+    background-color: #ef2353;
+    margin: auto;
+}
+
+/*End of Dynamic Art*/
+
+/*Timeline*/
+
+#divide4 {
+    border: solid white;
+    width: 46.7vw;
+    height: 10px;
+    background-color: white;
+}
+
+#fourthRow {
+    justify-content: right;
+}
+
+.timeDivide {
+    border: 5px solid white;
+    height: 25px;
+    width: 25px;
+    transform: rotate(45deg);
+    background-color: white;
+    position: absolute;
+    left: 18.5vw;
+}
+
+/*End of Timeline*/
+
+
+/*Blizzard*/
+
+#blizzBack {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4) ), url(images/Blizzard.png);
+    background-size: cover;
+}
+
+#sideBanner {
+    height: 100%;
+    background-color: #5674b9;
+    border: 30px solid #5674b9;
+}
+
+#colCom {
+    margin-left: -15px;
+}
+
+#blizzLog {
+    height: 9.2vw;
+}
+
+.divide6 {
+    border: 1px solid white;
+    height: 4px;
+    width: 17vw;
+    background-color: white;
+}
+
+.selectDiamond {
+    border: 3px solid white;
+    height: 25px;
+    width: 25px;
+    transform: rotate(45deg);
+    left: 18.5vw;
+}
+
+.selectSpecialDiamond {
+    border: 3px solid white;
+    height: 35px;
+    width: 35px;
+    transform: rotate(45deg);
+    left: 18.5vw;
+}
+
+#rowBottom {
+    justify-content: right;
+    margin-right: 2vw;
+}
+
+#borderTop {
+    border: 5px solid white;
+    width: 31.5vw;
+    justify-self: right;
+    margin-bottom: 1vw;
+    margin-left: 17vw;
+}
+
+
+/*End of Blizzard*/
+
+/*Contact*/
+
+#letter1 {
+    margin-top: 4vw;
+    font-size: 20.5vw;
+}
+
+#letter2 {
+    margin-top: 8vw;
+    left: 100vw;
+    font-size: 20.5vw;
+}
+
+#letter3 {
+    margin-top: 11vw;
+    font-size: 20.5vw;
+}
+
+#website {
+    margin-left: 25vw;
+}
+
+#linkedIn {
+    margin-left: 5vw;
+}
+
+#resume {
+    margin-left: 10vw;
+}
+
+.socialBox {
+    width: 30vw;
+    margin-left: 3.5vw;
+}
+
+.colorStrip {
+    width: 340px;
+    height: 47px;
+    background: #4d4141;
+    border: 5px solid #4d4141;
+    margin-left: 65px;
+}
+
+#beginnerText {
+    font-size: 3vw;
+}
+
+#lastBox {
+    margin-bottom: 3vw;
+}
+
+/*End of Contact*/
+
+/*Media Queries*/
+
+@media (max-width: 992px) {
+    
+    header {
+        background: linear-gradient(rgba(21, 31, 32, 1), rgba(21, 31, 23, 0.95));
+    }
+
+    #illidari {
+        width: 300px;
+        position: absolute;
+    }
+
+    #war2 {
+        display: none;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    #divide1 {
+        border: solid white;
+        margin-left: 4px;
+        height: 10px;
+        width: 70vw;
+        height: 7px;
+        background-color: white;
+    }
+    
+    .frame {
+        border: 0px solid white;
+        height: 50vh;
+        width: 74.5vw;
+        border-radius: 10px;
+        background-image: url(images/Night_Elf.jpg);
+        background-repeat: no-repeat;
+        box-shadow: -3px -7px 62px -19px rgba(0,0,0,0.75);
+        justify-content: center;
+        background-size: cover;
+    }
+
+    .divide2 {
+        display: none;
+    }
+
+    #buttonSlide {
+        margin-left: 10vw;
+    }
+
+    .buttonNormal {
+        border: 5px solid white;
+        height: 30px;
+        width: 30px;
+        transform: rotate(45deg);
+        background-color: white;
+        margin: auto;
+        margin-left: 0vw;
+    }
+
+    #divide3 {
+        border: solid white;
+        width: 85vw;
+        height: 7px;
+        background-color: white;
+    }
+
+    #troll {
+        display: none;
+    }
+
+    #archer {
+        position: relative;
+        width: 43vh;
+        margin-top: 5vw;
+        margin-left: 5vw;
+    }
+
+    #divide4 {
+        border: solid white;
+        width: 70vw;
+        height: 7px;
+        background-color: white;
+    }
+
+    #warLogo {
+        height: 117vw;
+        margin-top: 15vw;
+    }
+
+    .timeDivide {
+        display: none;
+    }
+
+    #blizzLog {
+        height: 20vw;
+    }
+
+    .divide6 {
+        display: none;
+    }
+
+    #blizzBack {
+        background-image: none;
+        background-color: #5674b9;
+        background-size: cover;
+    }
+
+    #BlizzRow {
+        margin-left: 4.1vw;
+    }
+
+    #secondCol {
+        display: none;
+    }
+
+    #website {
+        display: none;
+    }
+    
+    #linkedIn {
+        display: none;
+    }
+    
+    #resume {
+        display: none;
+    }
+
+    #johnRow {
+        justify-content: center;
+        margin-right: 10vw;
+    }
+
+    #touchText {
+        margin-left: 4vw;
+    }
+
+    #socialBar {
+        margin-top: 40vw;
+    }
+
+    #letter1 {
+        margin-top: 3vw;
+        font-size: 15vw;
+    }
+    
+    #letter2 {
+        margin-top: 7vw;
+        left: 100vw;
+        font-size: 15vw;
+    }
+    
+    #letter3 {
+        margin-top: 10vw;
+        font-size: 15vw;
+    }
+
+    .colorStrip {
+        width: 300px;
+        height: 47px;
+        background: #4d4141;
+        border: 5px solid #4d4141;
+        margin-left: 65px;
+    }
+
+    .socialBox {
+        width: 400px;
+        margin-left: 9vw;
+    }
+
+    #beginnerText {
+        font-size: 8vw;  
+    }
+
+    #lastBox {
+        margin-bottom: 20vw;
+    }
+}
+
+/*End of Media Queries*/
